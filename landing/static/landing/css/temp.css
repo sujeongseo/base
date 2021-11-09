@@ -1,0 +1,34 @@
+#ncg-form {
+    border: black solid 1px; 
+    border-radius: 25px;
+    background-color: white; 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.ncg-type {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ncg-input-label {
+    text-align: left;
+}
+
+.ncg-input-box {
+    width: 100%;
+}
+
+
+
+.result-card {
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+
+
