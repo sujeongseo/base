@@ -15,9 +15,17 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from blogapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('landing.urls')),
+    path('input/', include('landing.urls')),
     path('output/', include('output.urls')),
-]
+    path('', views.home, name='home'),
+    #HTML form을 이용하여 브로그 객체 만들기
+    path('new/', views.new, name='new'),
+    path('create/', views.create, name='create'),
+    ]
+
+    #django form을 이용해 블로그 객체 만들기
+#     path('formcreate', views.formcreate, name='formcreate')

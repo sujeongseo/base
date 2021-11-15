@@ -4036,6 +4036,7 @@ textarea.form-control-lg {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-color: #FD763E;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4458,8 +4459,8 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: wh;
+  border-color: white;
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -5531,7 +5532,6 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -11296,10 +11296,10 @@ html {
 .bg-black {
   background-color: #000 !important;
 }
-
+/* 
 .bg-gradient-primary-to-secondary {
-  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
-}
+  background: linear-gradient(90.65deg, #FD793E 19.85%, #EB8A30 94.71%);
+} */
 
 .font-alt {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
@@ -11325,7 +11325,7 @@ section {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #fff;
+  background-color: #FD763E;
 }
 #mainNav .navbar-brand {
   font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -11336,16 +11336,17 @@ section {
 #mainNav .navbar-toggler {
   font-size: 0.875rem;
   padding: 0.75rem 1rem;
-  color: #212529;
+  color: white;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #212529;
+  color: white;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #6c757d;
+  color: white;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #2937f0;
+  color: white;
 }
 
 /*!
@@ -11354,12 +11355,12 @@ section {
  * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
  * Last Build: Tue Nov 14 2017 12:40:57
  */
-.device-wrapper {
+.woman-wrapper {
   max-width: 300px;
   width: 100%;
 }
 
-.device {
+.woman {
   position: relative;
   background-size: cover;
 }
@@ -11383,23 +11384,23 @@ section {
   cursor: pointer;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
+.woman[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
   padding-bottom: 198.898071625%;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
+.woman[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
   top: 3.1855955679%;
   left: 6.8870523416%;
   width: 86.2258953168%;
   height: 93.6288088643%;
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
+.woman[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
   content: "";
   background-image: url("../assets/img/portrait_black.png");
 }
 
-.device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
+.woman[data-device=iPhoneX][data-orientation=portrait][data-color=black] .button {
   display: none;
   top: 0%;
   left: 0%;
